@@ -10,17 +10,176 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <meta name="msapplication-tap-highlight" content="no" />
-    <!--强制使用360急速模式-->
-    <meta name="renderer" content="webkit" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- mobile settings -->
-    <meta
-      name="viewport"
-      content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0"
-    />
-    <meta name="keywords" content="*****" />
-    <meta name="description" content="*******" />
     <title>郑昊--医师执业证书--医政信息展示</title>
+    <!-- Favicon -->
+    <!-- <link
+      rel="shortcut icon"
+      href="/Content/icos/doctor.ico"
+      mce_href="/Content/icos/doctor.ico"
+      type="image/x-icon"
+    /> -->
+
+    <!-- <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://comres.cndocsys.cn/licensedisp/css/doctor-Mobile-v2.css"
+    /> -->
+    <style>
+      body,
+      html {
+        height: 100%;
+        font-family: '微软雅黑';
+      }
+
+      p {
+        margin: 0;
+      }
+
+      .content {
+        min-height: 100%;
+        padding: 10px;
+      }
+
+      .wrap {
+        min-height: 100%;
+        background: url(../img/doctor/tou.jpg) 0 0 no-repeat,
+          url(../img/doctor/wei.jpg) 0 100% no-repeat,
+          url(../img/doctor/yin.jpg) 0 0 repeat-y;
+        background-size: 100% auto;
+        box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.17);
+        padding-bottom: 60px;
+      }
+
+      .wrap_qn {
+        min-height: 100%;
+        background: url(https://comres.cndocsys.cn/licensedisp/images/doctor_mobile/tou.jpg)
+            0 0 no-repeat,
+          url(https://comres.cndocsys.cn/licensedisp/images/doctor_mobile/wei.jpg)
+            0 100% no-repeat,
+          url(https://comres.cndocsys.cn/licensedisp/images/doctor_mobile/yin.jpg)
+            0 0 repeat-y;
+        background-size: 100% auto;
+        box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.17);
+        padding-bottom: 60px;
+      }
+
+      .head {
+        float: right;
+        width: 60px;
+        height: 82px;
+        margin-top: 2px;
+      }
+
+      .title {
+        margin-top: 64px;
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+      }
+
+      .title div {
+        width: 210px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 23px;
+        display: inline-block;
+        font-family: 'Microsoft YaHei';
+        font-weight: bold;
+        letter-spacing: 5px;
+      }
+
+      .main {
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-top: 26px;
+      }
+
+      .key {
+        color: #0064cb;
+        font-size: 14px;
+        white-space: nowrap;
+      }
+
+      .value {
+        color: #000;
+        font-size: 14px;
+        word-wrap: break-word;
+      }
+
+      .li {
+        margin-bottom: 10px;
+      }
+
+      .Bli {
+        margin-bottom: 8px;
+        overflow: hidden;
+      }
+
+      .block {
+        margin-bottom: 36px;
+      }
+
+      .flexBlock {
+        margin-top: 40px;
+      }
+
+      .Btitle {
+        color: #0064cd;
+        font-size: 16px;
+        margin-bottom: 15px;
+      }
+
+      .BWrapBlock {
+        margin-bottom: 20px;
+      }
+
+      .er {
+        text-align: center;
+        margin-top: 56px;
+        margin-bottom: 20px;
+      }
+
+      .er img {
+        width: 86px;
+        height: 86px;
+      }
+
+      .fkey {
+        color: #333;
+        font-size: 14px;
+        font-weight: bold;
+      }
+
+      .fvalue {
+        color: #333;
+        font-size: 14px;
+      }
+
+      .footer {
+        padding-left: 40px;
+        padding-right: 40px;
+      }
+
+      .Bli .key {
+        float: left;
+        width: 25%;
+      }
+
+      .Bli .value {
+        float: left;
+        width: 75%;
+      }
+
+      .fkey {
+        float: left;
+        width: 25%;
+      }
+
+      .fvalue {
+        float: left;
+        width: 75%;
+      }
+    </style>
     <style>
       @media (max-width: 374px) {
         .footer {
@@ -97,166 +256,6 @@
       }
     </style>
     <style>
-      body,
-      html {
-        height: 100%;
-        font-family: '微软雅黑';
-      }
-
-      p,
-      body,
-      html {
-        margin: 0;
-      }
-
-      .wrap {
-        width: 754px;
-        margin: 0 auto;
-        height: 1084px;
-        min-height: 100%;
-        background: url(../img/doctor.jpg) 0 0 no-repeat;
-        background-size: 100% 100%;
-        position: relative;
-      }
-
-      .wrap_qn {
-        width: 754px;
-        margin: 0 auto;
-        height: 1084px;
-        min-height: 100%;
-        background: url(https://comres.cndocsys.cn/licensedisp/images/doctor.jpg)
-          0 0 no-repeat;
-        background-size: 100% 100%;
-        position: relative;
-      }
-
-      .head {
-        float: right;
-        width: 100px;
-        height: 133px;
-      }
-
-      .title {
-        margin-top: 128px;
-        display: inline-block;
-        text-align: center;
-        width: 100%;
-      }
-
-      .title div {
-        width: 420px;
-        height: 50px;
-        line-height: 50px;
-        font-size: 45px;
-        display: inline-block;
-        font-family: 'Microsoft YaHei';
-        font-weight: bold;
-        letter-spacing: 10px;
-      }
-
-      .main {
-        padding-left: 112px;
-        padding-right: 112px;
-        padding-top: 40px;
-      }
-
-      .key {
-        color: #0064cb;
-        font-size: 17px;
-      }
-
-      .value {
-        color: #000;
-        font-size: 17px;
-      }
-
-      .li {
-        margin-bottom: 10px;
-      }
-
-      .Bli {
-        margin-bottom: 10px;
-        overflow: hidden;
-      }
-
-      .block {
-        margin-bottom: 20px;
-        /*margin-top: 30px;*/
-      }
-
-      .flexBlock {
-        margin-top: 50px;
-      }
-
-      .Btitle {
-        color: #0064cd;
-        font-size: 18px;
-        margin-bottom: 18px;
-      }
-
-      .BWrapBlock {
-        margin-bottom: 20px;
-      }
-
-      .er {
-        margin-top: 56px;
-        margin-bottom: 20px;
-      }
-
-      .er img {
-        width: 124px;
-        height: 124px;
-        float: left;
-      }
-
-      .fkey {
-        color: #333;
-        font-size: 15px;
-        font-weight: bold;
-      }
-
-      .fvalue {
-        color: #333;
-        font-size: 15px;
-      }
-
-      .footer {
-        position: absolute;
-        bottom: 60px;
-        width: 100%;
-        margin: 0px 0px 4% 0%;
-      }
-
-      .Bli .key {
-        float: left;
-        width: 18%;
-      }
-
-      .Bli .value {
-        float: left;
-        width: 86%;
-      }
-
-      .fkey {
-        float: left;
-        width: 14%;
-        margin-right: 5px;
-        margin-left: 70px;
-      }
-
-      .fvalue {
-        float: left;
-        width: 53%;
-        padding-right: 56px;
-      }
-
-      .newEr {
-        width: 124px;
-        height: 124px;
-        float: left;
-        margin-left: 112px;
-      }
-
       .head {
         float: right;
         width: 111px;
@@ -271,89 +270,104 @@
     ondragstart="return false;"
     style="background-color: #fff"
   >
-    <div class="wrap_qn">
-      <div class="title">
-        <div>医师执业证书</div>
-      </div>
-      <div class="main">
-        <div class="block">
-          <img src="./person.png" class="head" onerror="phoError(this)" />
-          <div class="li">
-            <span class="key">姓名：</span>
-            <span class="value" style="font-size: 19px">郑昊</span>
-          </div>
-          <div class="li">
-            <span class="key">性别：</span>
-            <span class="value">男</span>
-          </div>
-          <div class="li">
-            <span class="key">出生年月：</span>
-            <span class="value">1993年07月</span>
-          </div>
+    <div class="content">
+      <div class="wrap_qn">
+        <div class="title">
+          <div>医师执业证书</div>
         </div>
-        <div class="block">
-          <div class="li">
-            <span class="key">执业级别：</span>
-            <span class="value">执业医师</span>
+        <div class="main">
+          <div class="block">
+            <img src="/person.png" class="head" style="" />
+            <div class="li">
+              <span class="key">姓名:</span>
+              <span class="value" style="font-size: 16px">郑昊</span>
+            </div>
+            <div class="li">
+              <span class="key">性别:</span>
+              <span class="value">男</span>
+            </div>
+            <div class="li">
+              <span class="key">出生年月:</span>
+              <span class="value">1993年07月</span>
+            </div>
           </div>
-          <div class="li">
-            <span class="key">执业类别：</span>
-            <span class="value">临床</span>
+          <div class="block">
+            <div class="li">
+              <span class="key">执业级别:</span>
+              <span class="value">执业医师</span>
+            </div>
+            <div class="li">
+              <span class="key">执业类别:</span>
+              <span class="value">临床</span>
+            </div>
+            <div class="li">
+              <span class="key">执业范围:</span>
+              <span class="value">内科专业</span>
+            </div>
+            <div class="li">
+              <span class="key">任职资格:</span>
+              <span class="value">医师</span>
+            </div>
+            <div class="li">
+              <span class="key">证书编码:</span>
+              <span class="value">110330211001600</span>
+            </div>
           </div>
-          <div class="li" style="display: flex">
-            <span class="key">执业范围：</span>
-            <span class="value" style="flex: 1; margin-left: 4px"
-              >内科专业</span
-            >
-          </div>
-          <div class="li">
-            <span class="key">任职资格：</span>
-            <span class="value">医师</span>
-          </div>
-          <div class="li">
-            <span class="key">证书编码：</span>
-            <span class="value">110330211001600</span>
-          </div>
-        </div>
 
-        <div class="block">
-          <div class="li">
-            <span class="key">执业地点：</span>
-            <span class="value">浙江省</span>
+          <div class="block">
+            <div class="li">
+              <span class="key">执业地点:</span>
+              <span class="value">浙江省</span>
+            </div>
+            <div class="li">
+              <span class="key">主要执业机构:</span>
+              <span class="value">上海交通大学医学院附属瑞金医院舟山分院</span>
+            </div>
           </div>
-          <div class="li">
-            <span class="key">主要执业机构：</span>
-            <span class="value">宁波第五医院</span>
+          <div class="flexBlock"></div>
+          <div class="block"></div>
+        </div>
+        <div class="footer">
+          <div class="er">
+            <div style="display: inline-block; height: 86px; width: 86px">
+              <div id="newErCode">
+                <img
+                  src="/code.png"
+                  style="display: block; width: 86px; height: 86px"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="">
+            <div class="Bli">
+              <span class="fkey">签发机关 &nbsp;</span>
+              <span class="fvalue">舟山市定海区卫生健康局</span>
+            </div>
+            <div class="Bli">
+              <span class="fkey">签发日期 &nbsp;</span>
+              <span class="fvalue">2023年03月07日</span>
+            </div>
           </div>
         </div>
       </div>
-      <div class="footer">
-        <div class="newEr">
-          <div
-            id="newErCode"
-            title="https://license.wsb003.cn/license/doctor?encry=bifCcYLMufEKjJXOawSp6Zml5lgroKZruF94SAEaZ2/thlhhydw0afLdexqaO5PMBN7GZ4FNhAG5ILIW5Bzyqqmdtq0BaQZuVAGNkn+Dw+A="
-          >
-            <img
-              src="./code.png"
-              style="display: block; width: 128px; height: 128px"
-            />
-          </div>
-        </div>
-        <div class="Ntip">
-          <div class="Bli" style="padding-top: 30px">
-            <div class="fkey">签发机关 &nbsp; &nbsp; &nbsp;</div>
-            <span class="fvalue">舟山市定海区卫生健康局</span>
-          </div>
-          <div class="Bli">
-            <span class="fkey">签发日期 &nbsp; &nbsp; &nbsp;</span>
-            <span class="fvalue">2023年03月07日</span>
-          </div>
-        </div>
+      <div style="text-align: center; padding-bottom: 28px; margin-top: 20px">
+        京ICP备05012146号-5
       </div>
     </div>
-
-    <div style="text-align: center; padding-bottom: 28px">
-      京ICP备05012146号-5
+    <div id="volume-booster-visusalizer">
+      <div class="sound">
+        <div class="sound-icon"></div>
+        <div class="sound-wave sound-wave_one"></div>
+        <div class="sound-wave sound-wave_two"></div>
+        <div class="sound-wave sound-wave_three"></div>
+      </div>
+      <div class="segments-box">
+        <div data-range="1-20" class="segment"><span></span></div>
+        <div data-range="21-40" class="segment"><span></span></div>
+        <div data-range="41-60" class="segment"><span></span></div>
+        <div data-range="61-80" class="segment"><span></span></div>
+        <div data-range="81-100" class="segment"><span></span></div>
+      </div>
     </div>
   </body>
 </html>
