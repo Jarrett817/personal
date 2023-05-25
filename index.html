@@ -21,25 +21,170 @@
     <meta name="keywords" content="*****" />
     <meta name="description" content="*******" />
     <title>郑昊--医师执业证书--医政信息展示</title>
-    <!-- Favicon -->
-    <link
-      rel="shortcut icon"
-      href="/Content/icos/doctor.ico"
-      mce_href="/Content/icos/doctor.ico"
-      type="image/x-icon"
-    />
-
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://comres.cndocsys.cn/licensedisp/css/doctor-Computer-v2.css"
-    />
     <style>
       .head {
         float: right;
         width: 111px;
         height: 150px;
         margin-top: 2px;
+      }
+      body,
+      html {
+        height: 100%;
+        font-family: '微软雅黑';
+      }
+
+      p,
+      body,
+      html {
+        margin: 0;
+      }
+
+      .wrap {
+        width: 754px;
+        margin: 0 auto;
+        height: 1084px;
+        min-height: 100%;
+        background: url(./doctor.jpeg) 0 0 no-repeat;
+        background-size: 100% 100%;
+        position: relative;
+      }
+
+      .wrap_qn {
+        width: 754px;
+        margin: 0 auto;
+        height: 1084px;
+        min-height: 100%;
+        background: url(./doctor.jpeg) 0 0 no-repeat;
+        background-size: 100% 100%;
+        position: relative;
+      }
+
+      .head {
+        float: right;
+        width: 100px;
+        height: 133px;
+      }
+
+      .title {
+        margin-top: 128px;
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+      }
+
+      .title div {
+        width: 420px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 45px;
+        display: inline-block;
+        font-family: 'Microsoft YaHei';
+        font-weight: bold;
+        letter-spacing: 10px;
+      }
+
+      .main {
+        padding-left: 112px;
+        padding-right: 112px;
+        padding-top: 40px;
+      }
+
+      .key {
+        color: #0064cb;
+        font-size: 17px;
+      }
+
+      .value {
+        color: #000;
+        font-size: 17px;
+      }
+
+      .li {
+        margin-bottom: 10px;
+      }
+
+      .Bli {
+        margin-bottom: 10px;
+        overflow: hidden;
+      }
+
+      .block {
+        margin-bottom: 20px;
+        /*margin-top: 30px;*/
+      }
+
+      .flexBlock {
+        margin-top: 50px;
+      }
+
+      .Btitle {
+        color: #0064cd;
+        font-size: 18px;
+        margin-bottom: 18px;
+      }
+
+      .BWrapBlock {
+        margin-bottom: 20px;
+      }
+
+      .er {
+        margin-top: 56px;
+        margin-bottom: 20px;
+      }
+
+      .er img {
+        width: 124px;
+        height: 124px;
+        float: left;
+      }
+
+      .fkey {
+        color: #333;
+        font-size: 15px;
+        font-weight: bold;
+      }
+
+      .fvalue {
+        color: #333;
+        font-size: 15px;
+      }
+
+      .footer {
+        position: absolute;
+        bottom: 60px;
+        width: 100%;
+        margin: 0px 0px 4% 0%;
+      }
+
+      .Bli .key {
+        float: left;
+        width: 18%;
+      }
+
+      .Bli .value {
+        float: left;
+        width: 86%;
+      }
+
+      .fkey {
+        float: left;
+        width: 14%;
+        margin-right: 5px;
+        margin-left: 70px;
+      }
+
+      .fvalue {
+        float: left;
+        width: 53%;
+        padding-right: 56px;
+      }
+
+      .newEr {
+        width: 124px;
+        height: 124px;
+        float: left;
+        margin-left: 112px;
       }
     </style>
   </head>
@@ -55,12 +200,7 @@
       </div>
       <div class="main">
         <div class="block">
-          <img
-            src="./person.png"
-            class="head"
-            style=""
-            onerror="phoError(this)"
-          />
+          <img src="./person.png" class="head" onerror="phoError(this)" />
           <div class="li">
             <span class="key">姓名：</span>
             <span class="value" style="font-size: 19px">郑昊</span>
