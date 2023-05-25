@@ -1,38 +1,142 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="screen-orientation" content="portrait" />
-    <meta name="full-screen" content="yes" />
-    <meta name="browsermode" content="application" />
-    <meta name="x5-orientation" content="portrait" />
-    <meta name="x5-fullscreen" content="true" />
-    <meta name="x5-page-mode" content="app" />
-    <meta name="full-screen" content="true" />
-    <meta name="360-fullscreen" content="true" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-
     <meta
       name="viewport"
-      content="width=device-width,initial-scale=1.0,minimum-scale=1.0,
-    maximum-scale=1.0,user-scalable=no,viewport-fit=cover"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
     />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="email=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <!--强制使用360急速模式-->
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- mobile settings -->
+    <meta
+      name="viewport"
+      content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0"
+    />
+    <meta name="keywords" content="*****" />
+    <meta name="description" content="*******" />
     <title>郑昊--医师执业证书--医政信息展示</title>
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="/Content/icos/doctor.ico"
+      mce_href="/Content/icos/doctor.ico"
+      type="image/x-icon"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://comres.cndocsys.cn/licensedisp/css/doctor-Computer-v2.css"
+    />
+    <style>
+      .head {
+        float: right;
+        width: 111px;
+        height: 150px;
+        margin-top: 2px;
+      }
+    </style>
   </head>
-  <style>
-    body {
-      display: flex;
-      justify-content: center;
-      width: 100%;
-      height: 100%;
-      overflow-y: auto;
-      overflow-x: hidden;
-    }
-  </style>
-  <body>
-    <img src="./person.jpeg" style="width: 100%; height: 100%" />
+  <body
+    oncontextmenu="return false;"
+    onselectstart="return false"
+    ondragstart="return false;"
+    style="background-color: #fff"
+  >
+    <div class="wrap_qn">
+      <div class="title">
+        <div>医师执业证书</div>
+      </div>
+      <div class="main">
+        <div class="block">
+          <img
+            src="./person.png"
+            class="head"
+            style=""
+            onerror="phoError(this)"
+          />
+          <div class="li">
+            <span class="key">姓名：</span>
+            <span class="value" style="font-size: 19px">郑昊</span>
+          </div>
+          <div class="li">
+            <span class="key">性别：</span>
+            <span class="value">男</span>
+          </div>
+          <div class="li">
+            <span class="key">出生年月：</span>
+            <span class="value">1993年07月</span>
+          </div>
+        </div>
+        <div class="block">
+          <div class="li">
+            <span class="key">执业级别：</span>
+            <span class="value">执业医师</span>
+          </div>
+          <div class="li">
+            <span class="key">执业类别：</span>
+            <span class="value">临床</span>
+          </div>
+          <div class="li" style="display: flex">
+            <span class="key">执业范围：</span>
+            <span class="value" style="flex: 1; margin-left: 4px"
+              >内科专业</span
+            >
+          </div>
+          <div class="li">
+            <span class="key">任职资格：</span>
+            <span class="value">医师</span>
+          </div>
+          <div class="li">
+            <span class="key">证书编码：</span>
+            <span class="value">110330211001600</span>
+          </div>
+        </div>
+
+        <div class="block">
+          <div class="li">
+            <span class="key">执业地点：</span>
+            <span class="value">浙江省</span>
+          </div>
+          <div class="li">
+            <span class="key">主要执业机构：</span>
+            <span class="value">宁波第五医院</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="newEr">
+          <div
+            id="newErCode"
+            title="https://license.wsb003.cn/license/doctor?encry=bifCcYLMufEKjJXOawSp6Zml5lgroKZruF94SAEaZ2/thlhhydw0afLdexqaO5PMBN7GZ4FNhAG5ILIW5Bzyqqmdtq0BaQZuVAGNkn+Dw+A="
+          >
+            <img
+              src="./code.png"
+              style="display: block; width: 128px; height: 128px"
+            />
+          </div>
+        </div>
+        <div class="Ntip">
+          <div class="Bli" style="padding-top: 30px">
+            <div class="fkey">签发机关 &nbsp; &nbsp; &nbsp;</div>
+            <span class="fvalue">舟山市定海区卫生健康局</span>
+          </div>
+          <div class="Bli">
+            <span class="fkey">签发日期 &nbsp; &nbsp; &nbsp;</span>
+            <span class="fvalue">2023年03月07日</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align: center; padding-bottom: 28px">
+      京ICP备05012146号-5
+    </div>
   </body>
 </html>
